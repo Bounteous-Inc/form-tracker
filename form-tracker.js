@@ -6,6 +6,7 @@ $(document).ready(function() {
 		} 
 		else {
 			_gaq.push(['_trackEvent', 'INSERT FORM NAME HERE', 'skipped', $(this).attr('name')]);
+		}
 	});
 });
 })(jQuery);
